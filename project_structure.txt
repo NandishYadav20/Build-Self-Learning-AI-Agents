@@ -1,0 +1,56 @@
+Build-Self-Learning-AI-Agents/
+├── src/
+│   ├── __init__.py
+│   ├── agents/
+│   │   ├── __init__.py
+│   │   ├── base_agent.py
+│   │   ├── learning_agent.py
+│   │   └── task_agent.py
+│   ├── memory/
+│   │   ├── __init__.py
+│   │   ├── memory_manager.py
+│   │   ├── experience_buffer.py
+│   │   └── knowledge_base.py
+│   ├── learning/
+│   │   ├── __init__.py
+│   │   ├── learner.py
+│   │   ├── reward_model.py
+│   │   └── experience_replay.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── config.py
+│       ├── logger.py
+│       └── helpers.py
+├── examples/
+│   ├── __init__.py
+│   ├── simple_agent.py
+│   ├── learning_example.py
+│   └── multi_agent_example.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_agents.py
+│   ├── test_memory.py
+│   ├── test_learning.py
+│   └── conftest.py
+├── config/
+│   ├── agent_config.yaml
+│   ├── learning_config.yaml
+│   └── logging_config.yaml
+├── docs/
+│   ├── README.md
+│   ├── ARCHITECTURE.md
+│   ├── GETTING_STARTED.md
+│   ├── API_REFERENCE.md
+│   └── EXAMPLES.md
+├── .github/
+│   ├── workflows/
+│   │   └── ci.yml
+│   └── ISSUE_TEMPLATE/
+│       └── bug_report.md
+├── requirements.txt
+├── setup.py
+├── pyproject.toml
+├── .gitignore
+├── .env.example
+├── LICENSE
+└── README.md
